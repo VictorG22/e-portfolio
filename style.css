@@ -1,9 +1,56 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap");
 
 * {
-    font-family: 'Lato', sans-serif;
-    box-sizing: border-box;
-    padding: 0px;
-    margin: 0px;
-    
+  font-family: "Lato", sans-serif;
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
 }
+
+li{
+    list-style-type: none;
+}
+
+/* NAVIGATION BAR */
+nav {
+  height: 100px;
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav__personal-name {
+  font-weight: 700;
+  font-size: 24px;
+  color: #800020;
+  margin: 0 12px;
+}
+
+.nav__link--list {
+  display: flex;
+}
+
+.nav__link--anchor {
+  margin: 0 12px;
+  color: #242424;
+  text-decoration: none;
+  font-weight: 700;
+}
+
+.nav__link--anchor-primary{
+    background-color: #800020;
+    padding: 8px 20px;
+    border-radius: 50px;
+    color: white;
+    transition: all 300ms ease;
+}
+
+.nav__link--anchor-primary:hover{
+    background-color: #cd0033;
+}
+
+
+/* About-me page */
