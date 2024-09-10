@@ -448,6 +448,8 @@ footer {
   opacity: 1;
 }
 
+/* TABLETS MEDIUM DEVICES*/
+
 @media (max-width: 768px) {
   nav {
     height: 68px;
@@ -474,6 +476,8 @@ footer {
     padding-right: 30px;
   }
 }
+
+/* SMALL PHONES */
 
 @media (max-width: 480px) {
   .nav__link:not(:last-child) {
